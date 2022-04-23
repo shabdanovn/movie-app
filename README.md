@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Movie App Description
 
 This is React App for finding movies and getting information about them using TMDB API. 
 
