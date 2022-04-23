@@ -2,7 +2,7 @@
 
 This is React App for finding movies and getting information about them using TMDB API. 
 
-##Technological stack of this project: 
+## Technological stack of this project: 
 
 --React
 --TypeScript
