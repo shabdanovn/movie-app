@@ -4,12 +4,7 @@ This is React App for finding movies and getting information about them using TM
 
 ## Technological stack of this project: 
 
---React
---TypeScript
---Redux Tookit
---MUI
---Axios
---Scss
+React TypeScript Redux Tookit MUI Axios Scss
 
 ## Scripts
 
