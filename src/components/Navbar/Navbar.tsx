@@ -39,8 +39,7 @@ const Navbar = ({setMovies}:INavbar) => {
     useEffect(() => {
       if(setMovies){
         setMovies(searchedMovies)
-        if(searchedMovies.length === 0) 
-          setMovies(movies)
+        if(searchedMovies.length === 0) setMovies(movies)
       }
     }, [searchedMovies, setMovies, movies])
 
