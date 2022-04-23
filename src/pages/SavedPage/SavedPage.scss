@@ -1,0 +1,10 @@
+.saved-page{
+    width: 90%;
+    margin: 70px;
+
+    &__movies-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

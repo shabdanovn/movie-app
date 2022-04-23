@@ -1,0 +1,126 @@
+.movie-info-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 50px;
+    .movie-page{
+        width: 100%;
+        margin: 75px;
+
+        display: flex;
+        justify-content: space-between;
+
+        &__info{
+            width: 50%;
+            height: 60%;
+            .poster-details{
+                display: flex;
+                img{
+                    width: 250px;
+                    height: 350px;
+                    border-radius: 5px;
+                }
+
+                &__info{
+                    margin: 0 1rem;
+                    h3{
+                        font-size: 24px;
+                    }
+                    p{
+                        font-size: 20px;
+                        span{
+                            font-weight: 600;
+                            color: rgba(0, 0, 0, 0.521);
+                        }
+                    }
+                }
+            }
+        }
+
+        &__description{
+            height: 40%;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 140%;
+        }
+        
+        &__trailer-backdrop{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img{
+                width: 80%;
+                height: 50%;
+                border-radius: 5px;
+            }
+
+            .trailer{
+                width: 80%;
+                height: 55%;
+                margin-top: 10px;
+            }
+        }
+
+        @media screen and (max-width: 1100px){
+            flex-direction: column;
+            align-items: center;
+
+            &__info{
+                width: 100%;
+                .poster-details{
+                    img{
+                        width: 300px;
+                        height: 400px;
+                    }
+                }
+            }
+
+            &__trailer-backdrop{
+                width: 100%;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .trailer{
+                    width: 100%;
+                    height: 400px;
+                }
+            }
+        }
+
+        @media screen and (max-width: 650px){
+            &__info{
+                width: 100%;
+                .poster-details{
+                    flex-direction: column;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .swiper{
+
+        &__content{
+            width: 100%;
+            max-height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            overflow-y: auto;
+
+            &::-webkit-scrollbar{
+                display: none;
+            }
+        }
+
+    }
+}

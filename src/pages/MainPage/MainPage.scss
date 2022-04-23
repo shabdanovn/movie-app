@@ -1,0 +1,22 @@
+.main-page{
+    width: 90%;
+    height: 100%;
+    margin: 55px 0;
+
+    h3{
+        font-size: clamp(20px, 2.5vw, 24px);
+    }
+
+    &__movies-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    &__buttons{
+        width: 100%;
+        margin: 1rem 0;
+        display: flex;
+        justify-content: center;
+    }
+}
